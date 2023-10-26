@@ -6,7 +6,7 @@ jobs:
       - image: cimg/node:19.8.1
     working_directory: ~/app
     environment:
-        My_VAR: "my-value" 
+        MY_VAR: "my-value" 
     steps:
       - checkout
       - run: echo $MY_VAR
